@@ -1,0 +1,27 @@
+{
+    "postBox" : {
+        "ipfs":"QmWXtftu9UY9AnqsvZ3zQeobog8vidDqoqapfbY3fKbHmh",
+        "link":"https://bafybeidzx2v4u33w3phqhx2leqzckcoyyd4imgosjcki4fe7pbs7aknksa.ipfs.infura-ipfs.io/"
+    },
+    "postOffice" : {
+        "ipfs":"QmX6s42ovn7jQHFMkeZ1zHDSD7cgL7Y6PSVxsZkYn5vnNY",
+        "link":"https://bafybeiecgebak7egilzdtezfqlbctbfkaqlcdm5ap4k6vy6ctg3aoibfdu.ipfs.infura-ipfs.io/"
+    },
+    "project" : {
+        "ipfs" : "QmaoduAa2oG33mH4L68xBFQYqjDYmL2hu3oqPXqatGaaRZ",
+        "link" : "https://bafybeifzgybilwokyuiftzeyel2sy6spydgxwxw3kl74opbp2b2qrmaznq.ipfs.infura-ipfs.io/"
+    },
+    "iconNFT" : {
+        "ipfs" : "QmVDeVyDnCmXCFQTbgbc5TW8VGjMtfCVDg7bUhwRhjADNr",
+        "link" : "https://bafybeidgg2azpnaq6ok65jpacj4h2fte2a5rmpqsztrlnwnacfinmypovm.ipfs.infura-ipfs.io/"
+    },
+    "agentRobot" : {
+        "ipfs" : "QmTK5br4MEDdrWkysoUfWSKrjGkxjGwUCHKykEELpBZDYS",
+        "link" : "https://bafybeicj4nvsohz2ft4gsssfcttzwqpo6rfhfwqcnf2qmqnh7b6eon77b4.ipfs.infura-ipfs.io/"
+    },
+    "marketing" : {
+        "ipfs" : "QmPrTtRy19dDMTXiVBV69TV9JtXPiSsUYehhFQfk7QwQd1",
+        "link" : "https://bafybeiawp3p65ntx4wdthfmqfzfoh6a3pv3kan256652j2vfigvaixpxyq.ipfs.infura-ipfs.io/"
+    }
+}
+
