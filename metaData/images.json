@@ -22,6 +22,12 @@
     "marketing" : {
         "ipfs" : "QmPrTtRy19dDMTXiVBV69TV9JtXPiSsUYehhFQfk7QwQd1",
         "link" : "https://bafybeiawp3p65ntx4wdthfmqfzfoh6a3pv3kan256652j2vfigvaixpxyq.ipfs.infura-ipfs.io/"
+    },
+    "stop" : {
+        "ipfs" : " QmNzXSzKxeszySXU5Jc87ccGgQzQ8Ax4i83rVFqgPMn6cX",
+        "link" : "https://bafybeiajwpohdarke3nuiy34v7t6wpeyl6i527syaijynenxuamt5dczra.ipfs.infura-ipfs.io/"
     }
+
+   
 }
 
