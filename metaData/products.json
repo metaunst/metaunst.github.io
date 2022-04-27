@@ -15,7 +15,7 @@
         "title"         : "Project",
         "subtitle"      : "Orgnize via Subnet",
         "description"   : "Initialize project via subnet. Define your project properties such as name, description, url, external link, etc.",
-        "link"         : {"caption": "Create", "link" : "/project"}
+        "link"         : {"caption": "Create", "link" : "/projects"}
     },
     {
         "style"         : "success",
