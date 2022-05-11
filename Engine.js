@@ -177,11 +177,11 @@ class Engine {
         const me = this;
         options.timeout = !options.timeout? 12000 : options.timeout;
         const nuri = !timeoutEnforce? this.ipfsUri(uri) : this.ipfsMainUri(uri);
-        console.log('-- nuri88-->',  nuri, timeoutEnforce,  this.ipfsMainUri(uri));
+        console.log('-- nuri99-->',  nuri, timeoutEnforce,  this.ipfsMainUri(uri));
         this.get(nuri, options, (v)=>{
             if (v && v.status === 'error') {
                 if (!timeoutEnforce) me.ipfsFetch(uri, options = {}, callback,  true);
-                console.log('ipfsFetch with err=>', v);
+                console.log('ipfsFetch with err=>', uri, 'v=>', v);
             } else {
                 callback(v);
             }
@@ -194,7 +194,7 @@ class Engine {
             const response = await this.fetchWithTimeout( uri, options);
            
             const niu = await response.json();
-            console.log('---response---888999-->', response, callback, 'niu===>', niu);
+            console.log('---response---888999-->', '===uri===>', uri, response, callback, 'niu===>', niu);
             if (callback) callback(niu);
         } catch (e) {
             if (callback) callback({status:'error', uri, message:e.message});
