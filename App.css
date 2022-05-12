@@ -135,17 +135,17 @@
   }
 
   .bg-dark-opacity { background: rgba(0,0,0, 0.72);
-    background: linear-gradient(325deg, rgba(255, 187, 51, 0.4) 0%, rgba(0, 0, 0, 0.9) 30%, rgb(0, 0, 0, 0.5) 60%, rgba(	255, 187, 51, 0.4) 90%);
+    background: linear-gradient(323deg, rgba(255, 187, 51, 0.4) 0%, rgba(0, 0, 0, 0.9) 30%, rgb(0, 0, 0, 0.5) 60%, rgba(	255, 187, 51, 0.4) 90%);
   }
 
+  .border-dark-opacity {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 187, 51, 0.6);
+  }
+  
   .bg-account-dark { background: rgba(0,0,0, 0.72);
     background: linear-gradient(141deg, rgba(22, 21, 21, 0.9) 10%, rgba(96, 5, 5, 0.9)80%, rgb(0, 0, 0, 1) 98% );
-  }
-
-  .topButtonBK {
-    color: #FFFF00;
-    background: rgba(0,0,0, 0.72);
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.9) 10%, rgba(96, 5, 5, 0.9)70%, rgb(0,0,0, 1) 80% );
   }
 
   .accountBox {
@@ -184,6 +184,29 @@
     text-decoration: none;
   }
  
+  .productCard {
+    background-image: linear-gradient(to right, #000000 0%, #54544e  51%, #000000  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #ccc;
+    border-radius: 0px !important;         
+    box-shadow: 0 0 6px #fff;
+    display: block;
+  }
+
+  .productCard:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #ffd700;
+    text-decoration: none;
+  }
+
+  .hover-hander:hover {
+    cursor: pointer;
+  }
 
   @supports (-webkit-text-stroke: 1px black) {
     h2 {
